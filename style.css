@@ -1,0 +1,117 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(57, 57, 59);
+    height: 35%;
+    width: 570px;
+    position: absolute;
+    margin:auto;
+    top: 50px;
+    left: 0;
+    right: 0;
+    padding: 30px 0;
+    border-bottom: 8px;
+
+}
+
+#newtask{
+    position: relative;
+    padding: 30px 15px;
+    background:rgb(247, 116, 197);
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+#newtask input{
+    border-radius: 5px;
+    width: 70%;
+    height: 45px;
+    font-size: 15px;
+    border:2px solid #6ccaf8;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+}
+
+#newtask input:focus{
+    outline: none;
+    border-color: #19A68c;
+}
+
+#newtask button{
+    position: relative;
+    float: right;
+    width: 70px;
+    height: 45px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 16px;
+    background: #121211;
+    color: rgb(253, 11, 15);
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+#tasks{
+    width:100%;
+    position: relative;
+    margin-top: 40px;
+    background-color: rgb(235, 249, 154);
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+
+.task{
+    background: rgb(247, 141, 141);
+    height: 50px;
+    padding: 5px 10px;
+    border-radius: 0px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border-radius: 2px solid #40b1ea;
+}
+
+.task span{
+    font-size: 20spx;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.task button{
+    border: none;
+    background:#75ead4 ;
+    height: 100%;
+    width: 45px;
+    color: rgb(196, 14, 232);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.completed{
+    text-decoration:line-through ;
+    opacity: 0.7;
+}
+.text{
+    height: 8px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50px;
+    transform: translateY(46px);
+}
+h1{
+    color:rgb(0, 153, 255);
+    font-size:xx-large;
+}
+
